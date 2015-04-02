@@ -16,12 +16,8 @@ class person(object):
 				self.corpus.append(f.read())
 
 fileaddress = "D:\\wya"
-# fileaddress2 = "D:\\llr"
-# fileaddress3 = "D:\\zjw"
 
 flist = os.listdir(fileaddress)
-# flist2 = os.listdir(fileaddress2)
-# flist3 = os.listdir(fileaddress3)
 
 dic = {}
 sta = {}
@@ -52,39 +48,3 @@ print testone.articlelist
 
 
 
-# for i in flist1:
-# 	with open(fileaddress1 + "\\" + i) as f:
-# 		data = f.read()
-# 		words = pseg.cut(data)
-# 		for w in words:
-# 			if w.flag not in flag_f:
-# 				flag_f.append(w.flag)
-# 		print i + "is ok"
-
-# for i in flist2:
-# 	with open(fileaddress2 + "\\" + i) as f:
-# 		data = f.read()
-# 		words = pseg.cut(data)
-# 		for w in words:
-# 			if w.flag not in flag_f:
-# 				flag_f.append(w.flag)
-# 		print i + "is ok"
-
-# for i in flist3:
-# 	with open(fileaddress3 + "\\" + i) as f:
-# 		data = f.read()
-# 		words = pseg.cut(data)
-# 		for w in words:
-# 			if w.flag not in flag_f:
-# 				flag_f.append(w.flag)
-# 		print i + "is ok"
-
-
-# print flag_f
-
-# for w in words:
-# 	if w.flag != "x":
-# 		dic[w.flag].append(w.word)
-
-# for i in dic["n"]:
-# 	print i
